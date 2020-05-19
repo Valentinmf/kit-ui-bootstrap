@@ -1,0 +1,197 @@
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #92A9E8;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #92A9E8 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+span{
+  font-size:15px;
+}
+.box{
+  padding:60px 0px;
+}
+
+.box-part{
+  background:#FFF;
+  border-radius:0;
+  padding:60px 10px;
+  margin:30px 0px;
+}
+.text{
+  margin:20px 0px;
+}
+
+.fa{
+   color:#4183D7;
+}
+
+
+.dm-service-banner{
+  background: #92A9E8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 97px 0;
+  position: relative;
+}
+.dm-banner-title{
+  text-align: right;
+  padding: 57px 0px;
+}
+.dm-banner-title .back-box{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 77%;
+  /* background: #fff; */
+  box-shadow: 0px 0px 5px 0px #ddd;
+  background: url('https://www.hummingwebians.com/public/images/dm-small.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dm-banner-title .front-text-box{
+  position: relative;
+  z-index: 1;
+}
+.dm-banner-title h1 {
+  font-size: 57px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  border-bottom: 1px solid #fafafa;
+  padding-bottom: 14px;
+  text-shadow: 3px 3px 1px #d4d1d1;
+  color: #0e4e6d;
+}
+.dm-banner-text{
+  padding: 107px 0px;
+  font-size: 1em;
+  font-weight: 450;
+  color: #fcfcfc;
+}
+
+.home-main{
+  background: #A1D2FF;
+  color:#fff;
+  padding: 13%;
+  text-align: center;
+}
+.blinker{
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+  opacity: 0;
+  }
+}
+.home-main button{
+  background: #fff;
+  color: #A1D2FF;
+  border-radius: 0;
+  font-weight: 700;
+  width: 16%;
+  height: 50px;
+  top: 4%;
+  margin-top: 3%;
+}
+.home-main button:hover{
+  transition: 1s ease;
+  color:#92A9E8;
+  width: 19%;
+}
+.content1-left{
+  padding:9%;
+}
+.content1-right{
+  padding:9%;
+  background:#e4e4e4;
+}
+.home-content2{
+  background: #adb5bd;
+  padding: 1.4%;
+  text-align: center;	
+}
+.home-content2 p{
+  font-size: 18px;
+  line-height: 50px;
+}
+.home-content2 p span{
+  font-weight: 500;
+}
